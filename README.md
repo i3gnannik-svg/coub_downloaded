@@ -1,2 +1,32 @@
-# coub_downloaded
-The script allows you to download full video and audio from the coub website.
+# Coub Downloader 🎬
+
+Программа для скачивания видео с Coub.com с полным звуком.
+
+## 📋 Требования
+
+- Windows 10/11
+- [FFmpeg](https://ffmpeg.org/download.html) (необходим для объединения видео и аудио)
+
+## 🚀 Быстрый старт
+
+### 1. Установите FFmpeg
+
+**Способ A (простой):**
+1. Скачайте FFmpeg с [официального сайта](https://www.gyan.dev/ffmpeg/builds/)
+2. Выберите **"ffmpeg-release-essentials.zip"**
+3. Распакуйте архив
+4. Скопируйте **ВСЕ** файлы из папки `bin` архива в папку `bin` программы Coub Downloader
+
+### 2. Запустите программу
+
+1. Откройте папку `Coub_downloader/bin/`
+2. Запустите `coub_downloader.py` двойным щелчком
+   - Если открывается блокнот, установите Python с [python.org](https://python.org)
+
+### 3. Используйте программу
+
+1. Вставьте ссылку на Coub (например: `https://coub.com/view/4aqg4q`)
+2. Программа автоматически:
+   - Скачает видео и аудио
+   - Объединит их в один файл
+   - Сохранит результат в папке `bin/`
